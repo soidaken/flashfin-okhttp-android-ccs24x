@@ -13,7 +13,7 @@
 5. 复制新文件夹`cocos2d-x\cocos\platform\android\java\src\src\org\cocos2dx\lib\websocket`到对应引擎目录
 6. 复制新文件`cocos2d-x\cocos\platform\android\java\src\src\org\cocos2dx\lib\GlobalObject.java`到对应引擎目录
 7. 结束. 重新编译android工程即可.
-8. 在脚本代码中正常 `new websocket(xxx)`即可正常连接上wss://xxxx的服务器地址.
+8. 在脚本代码中正常 `new WebSocket(a,b)`即可正常连接上wss://xxxx的服务器地址.
 
 
 ### 帮到你了吗?
