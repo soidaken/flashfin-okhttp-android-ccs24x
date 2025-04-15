@@ -2,6 +2,9 @@
 > 这是在CocosCreater2.4.x版本中Android平台使用websocket的wss连接时不需要指定本地cafile的补丁.
 > 实现方式是: c++层不再使用libwebsocket库而是通过jni调用java的okhttp3库
 
+### 兼容版本
+` 2.4.0 - 2.4.15都支持 `
+
 ### 修改步骤
 1. 复制新文件`cocos2d-x/cocos/network/WebSocket-okhttp_android.cpp` 到对应引擎目录
 2. 对比修改 `cocos2d-x/cocos/Android.mk`的` network/WebSocket-libwebsockets.cpp \` 替换为`network/WebSocket-okhttp_android.cpp \`
@@ -14,5 +17,5 @@
 
 
 ### 帮到你了吗?
-如果对你有帮助,请不吝赞助孩子一杯卡布奇诺☕️,谢谢!  
+如果对你有帮助,请不吝赞助我一杯卡布奇诺☕️,谢谢!  
 ![myRewardCode](https://github.com/soidaken/flashfin-tipQRcode/blob/main/reward-qrcode-small.jpg)
