@@ -11,3 +11,8 @@
 6. 复制新文件`cocos2d-x\cocos\platform\android\java\src\src\org\cocos2dx\lib\GlobalObject.java`到对应引擎目录
 7. 结束. 重新编译android工程即可.
 8. 在脚本代码中正常 `new websocket(xxx)`即可正常连接上wss://xxxx的服务器地址.
+
+
+### 帮到你了吗?
+如果对你有帮助,请不吝赞助孩子一杯卡布奇诺☕️,谢谢!  
+![myRewardCode](https://github.com/soidaken/flashfin-tipQRcode/blob/main/reward-qrcode-small.jpg)
